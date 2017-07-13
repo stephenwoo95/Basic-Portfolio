@@ -1,7 +1,124 @@
-*{
+* {
 	box-sizing: border-box;
-	position: relative;
 	margin: 0;
 	padding: 0;
 }
 
+body{
+	width:100%;
+	background-image: url("https://3.bp.blogspot.com/-_C55JRWIH2g/UKJX1XUBo9I/AAAAAAAADKs/82dRpNSlnYs/s1600/gray_stone-web_background_texture.jpg") 
+}
+
+header{
+	position: absolute;
+	top:0;
+	width: 100%;
+	height:60px;
+	overflow: inherit;
+	border-bottom: 1px solid grey;
+	background-color: white;
+}
+
+h1{
+	float: left;
+	position: absolute;
+	left: 5%;
+	font-family: Georgia, Times, serif;
+	font-size: 29px;
+	font-weight: 800;
+	color: white;
+	background-color: lightseagreen;
+	padding: 15px;
+}
+
+hr.big{
+	border-top: 2px solid gainsboro;
+}
+
+hr.small{
+	border-top: 1px solid gainsboro;
+}
+
+#site-nav{
+	float: left;
+	position: absolute;
+	bottom:10%;
+	right: 10%;
+	color: gainsboro;
+}
+
+a{
+	text-decoration: none;
+	color: lightseagreen;
+	font-size: 16px;
+	font-family: helvetica;
+}
+
+aside, #bio{
+	position:absolute;
+	right:0;
+	top:59px;
+	float: left;
+	width: 20%;
+	margin: 30px;
+	border: 1px solid grey;
+	padding: 20px;
+	overflow: inherit;
+	background-color: white;
+}
+
+h3{
+	padding-bottom: 20px;
+	color: lightseagreen;
+	text-align: center;
+	font-size: 18px;
+	font-family: Georgia, Times, serif;
+	font-weight: 800;
+	background-color: white;
+}
+
+#connect-nav{
+	padding-top: 20px;
+	background-color: white;
+}
+
+#bio{
+	left:0;
+	width: 45%;
+}
+
+h2{
+	font-family: Georgia, Times, serif;
+	color: lightseagreen;
+	font-size: 22px;
+	font-weight: 800;
+}
+
+#ProPic{
+	float: left;
+	margin-right: 20px;
+}
+
+.navbtn{
+	padding-right: 14px;
+	padding-left: 10px;
+}
+
+p{
+	line-height: 150%;
+	font-family: helvetica, sans-serif;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 14px;
+	color: #eee;
+	position: fixed;
+	bottom: 0;
+	background-color: grey;
+	padding-top: 18px;
+	border-top:3px solid lightseagreen;
+	font-family: helvetica, sans-serif;
+}
