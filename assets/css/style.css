@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+html, body{
+	height:100%;
+}
+
 body{
 	width:100%;
 	background-image: url("https://3.bp.blogspot.com/-_C55JRWIH2g/UKJX1XUBo9I/AAAAAAAADKs/82dRpNSlnYs/s1600/gray_stone-web_background_texture.jpg") 
@@ -31,6 +35,15 @@ h1{
 	padding: 15px;
 }
 
+.wrapper{
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+
+footer, .push{
+	height: 50px;
+}
+
 hr.big{
 	border-top: 2px solid gainsboro;
 }
@@ -54,7 +67,7 @@ a{
 	font-family: helvetica;
 }
 
-aside, #bio{
+aside, .content{
 	position:absolute;
 	right:0;
 	top:59px;
@@ -63,7 +76,7 @@ aside, #bio{
 	margin: 30px;
 	border: 1px solid grey;
 	padding: 20px;
-	overflow: inherit;
+/*	overflow: inherit;*/
 	background-color: white;
 }
 
@@ -77,14 +90,21 @@ h3{
 	background-color: white;
 }
 
+h4{
+	font-family: helvetica;
+	margin:5px;
+}
+
 #connect-nav{
 	padding-top: 20px;
 	background-color: white;
 }
 
-#bio{
+.content{
 	left:0;
-	width: 45%;
+	width: 60%;
+	min-height: 75%;
+
 }
 
 h2{
@@ -107,6 +127,56 @@ h2{
 p{
 	line-height: 150%;
 	font-family: helvetica, sans-serif;
+}
+
+input[type=text]{
+	width:100%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea{
+	width:100%;
+	height:30%;
+}
+
+input[type=submit]{
+    width: 100px;
+    background-color: lightseagreen;
+    color: white;
+    font-family: helvetica, sans-serif;
+   	text-align: center;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#boxes, #cube, #spinbox, #waver{
+	position: absolute;
+	border: 0;
+	margin:auto;
+}
+
+#boxes{
+	top: 75px;
+	left:15%;
+}
+#cube{
+	top: 75px;
+	right:15%;
+}
+
+#spinbox{
+	top:300px;
+	left:15%;
+}
+
+#waver{
+	top:300px;
+	right:15%;
 }
 
 footer{

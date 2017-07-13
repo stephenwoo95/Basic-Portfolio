@@ -10,29 +10,38 @@
 <body>
 	<header>
 		<h1>Stephen Woo</h1>
-		<nav>
+		<nav id="site-nav">
 			<a class="navbtn" href="index.html">About</a>|
 			<a class="navbtn" href="portfolio.html">Portfolio</a>|
 			<a class = "navbtn" href="contact.html">Contact</a>
 		</nav>
 	</header>
 
-	<section id="portfolio">
+	<div class="wrapper">
+	<section class="content">
 		<h2>Portfolio</h2>
-		<button><img src="assets/images/boxes.gif" alt="project1" width=200 height=200/></button>
-		<button><img src="assets/images/cube.gif" alt="project2" width=200 height=200/></button>
-		<button><img src="assets/images/spinbox.gif" alt="project3" width=200 height=200/></button>
-		<button><img src="assets/images/waver.gif" alt="project4" width=200 height=200/></button>
+		<br><hr class="big"><br>
+
+    	<button id="boxes"><img src="assets/images/boxes.gif" alt="project1" width=200 height=200/></button>
+    	<button id="cube"><img src="assets/images/cube.gif" alt="project2" width=200 height=200/></button> 
+    	<button id="spinbox"><img src="assets/images/spinbox.gif" alt="project3" width=200 height=200/></button>
+    	<button id="waver"><img src="assets/images/waver.gif" alt="project4" width=200 height=200/></button>
+
 	</section>
 
 	<aside>
 		<h3>Connect With Me</h3>
 
-		<a href="https://github.com/stephenwoo95"><img src="assets/images/github_circle_black_img.png" alt="github logo" width=200 height=200></a>
-		<a href="https://www.linkedin.com/in/stephen-woo-445a5213a/"><img src="assets/images/linkedin-circle-logo.png" alt="linkedin logo" width=200 height=200></a>
-		<a href="mailto:stephenwoo95@gmail.com"><img src="assets/images/gmail-email-mail-logo-circle-material.png" alt="gmail logo" width=200 height=200></a>
-	</aside>
+		<hr class="small">
 
+		<nav id="connect-nav">
+			<a href="https://github.com/stephenwoo95"><img src="assets/images/github-logo.png" alt="github logo" width=68 height=68></a>
+			<a href="https://www.linkedin.com/in/stephen-woo-445a5213a/"><img src="assets/images/linkedin-circle-logo.png" alt="linkedin logo" width=68 height=68></a>
+			<a href="mailto:stephenwoo95@gmail.com"><img src="assets/images/gmail-email-mail-logo-circle-material.png" alt="gmail logo" width=68 height=68></a>
+		</nav>
+	</aside>
+	<div class="push"></div>
+	</div>
 	<footer>		
 		&copy Copyright 2017 Stephen Woo 
 	</footer>

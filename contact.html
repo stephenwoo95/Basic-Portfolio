@@ -10,28 +10,39 @@
 <body>
 	<header>
 		<h1>Stephen Woo</h1>
-		<nav>
+		<nav id="site-nav">
 			<a class="navbtn" href="index.html">About</a>|
 			<a class="navbtn" href="portfolio.html">Portfolio</a>|
 			<a class = "navbtn" href="contact.html">Contact</a>
 		</nav>
 	</header>
-
-	<section id="contact">
+	
+	<div class="wrapper">
+	<section class="content">
 		<h2>Contact</h2>
+		<br><hr class="big"><br>
 		<h4>Name</h4>
+		<input type="text" name="Name" placeholder="John Smith">
 		<h4>Email</h4>
+		<input type="text" name="Email" placeholder="example@gmail.com">
 		<h4>Message</h4>
-		<button>Submit</button>
+		<textarea rows="15" cols="100"></textarea>
+		<br>
+		<input type="submit" name="Submit">
 	</section>
 
 	<aside>
 		<h3>Connect With Me</h3>
 
-		<a href="https://github.com/stephenwoo95"><img src="assets/images/github_circle_black_img.png" alt="github logo" width=200 height=200></a>
-		<a href="https://www.linkedin.com/in/stephen-woo-445a5213a/"><img src="assets/images/linkedin-circle-logo.png" alt="linkedin logo" width=200 height=200></a>
-		<a href="mailto:stephenwoo95@gmail.com"><img src="assets/images/gmail-email-mail-logo-circle-material.png" alt="gmail logo" width=200 height=200></a>
+		<hr class="small">
+
+		<nav id="connect-nav">
+			<a href="https://github.com/stephenwoo95"><img src="assets/images/github-logo.png" alt="github logo" width=68 height=68></a>
+			<a href="https://www.linkedin.com/in/stephen-woo-445a5213a/"><img src="assets/images/linkedin-circle-logo.png" alt="linkedin logo" width=68 height=68></a>
+			<a href="mailto:stephenwoo95@gmail.com"><img src="assets/images/gmail-email-mail-logo-circle-material.png" alt="gmail logo" width=68 height=68></a>
+		</nav>
 	</aside>
+	</div>
 
 	<footer>		
 		&copy Copyright 2017 Stephen Woo 
